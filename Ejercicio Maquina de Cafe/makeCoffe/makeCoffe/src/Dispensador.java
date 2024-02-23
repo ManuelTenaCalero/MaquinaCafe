@@ -11,7 +11,7 @@ public class Dispensador implements IDispensador{
     }
 
     public void Sacarina(){
-        System.out.println("Vierte Sacarina");
+        System.out.println("Vierte Sacarina al cafe");
     }
 
 

@@ -1,4 +1,6 @@
 public interface IDispensador {
 
-    public void TipoEdulcorante();
+    public void Azucar();
+
+    public void Sacarina();
 }

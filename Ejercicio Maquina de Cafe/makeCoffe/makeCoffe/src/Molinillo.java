@@ -4,6 +4,7 @@ public class Molinillo implements IMolinillo {
 
     }
     public void moler(){
+
         System.out.println("El cafe se esta moliendo");
     }
 }

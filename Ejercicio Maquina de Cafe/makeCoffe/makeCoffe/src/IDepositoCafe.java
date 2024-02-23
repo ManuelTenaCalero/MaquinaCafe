@@ -1,4 +1,6 @@
 public interface IDepositoCafe {
 
-    public void TipoCafe();
+    public void CafeNormal();
+
+    public void CafeDescafeinado();
 }

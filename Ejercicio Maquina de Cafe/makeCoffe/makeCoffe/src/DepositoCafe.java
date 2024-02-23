@@ -1,25 +1,12 @@
 public class DepositoCafe implements IDepositoCafe{
-
-    private String Cafe;
-
-    public DepositoCafe(String x){
-
-        this.Cafe = x;
+    public DepositoCafe(){
     }
 
-    public void TipoCafe(){
+    public void CafeNormal(){
+        System.out.println("Vierte cafe del deposito de Cafe normal");
+    }
 
-        switch (Cafe){
-
-            case "Normal":
-                System.out.println("Vierte cafe del deposito de Cafe normal");
-                break;
-            case "Descafeinado":
-                System.out.println("Vierte cafe del deposito de cafe descafeinado");
-                break;
-            default:
-                System.out.println("No hay ese tipo de deposito");
-
-        }
+    public  void CafeDescafeinado(){
+        System.out.println("Vierte cafe del deposito de cafe descafeinado");
     }
 }
